@@ -1,0 +1,42 @@
+{
+   "name": "pg_cemetery-db",
+   "abstract": "A PostgreSQL extension for creating a cemetery-db database",
+   "description": "This library contains a PostgreSQL extension, which creates a basic database structure for cemetery administration based on GIS.",
+   "version": "0.0.1",
+   "maintainer": [
+      "Benito M. Zaragozí <benizar@gmail.com>",
+      "Joan Cano <joancano20@gmail.com>"
+   ],
+   "license": "GPL3",
+   "provides": {
+      "pg_cemetery-db": {
+         "abstract": "A PostgreSQL extension for creating a basic database structure for storing and analyzing population pyramids.",
+         "file": "pg_cemetery-db.sql",
+         "docfile": "doc/pg_cemetery-db.md",
+         "version": "0.0.1"
+      }
+   },
+   "resources": {
+      "homepage": "http://www.easycemetery.com/",
+      "bugtracker": {
+         "web": "https://github.com/benizar/pg_cemetery-db/issues"
+      },
+      "repository": {
+        "url":  "git://github.com/chichinabo/pg_cemetery-db.git",
+        "web":  "https://github.com/chichinabo/pg_cemetery-db",
+        "type": "git"
+      }
+   },
+   "generated_by": "Benito M. Zaragozí",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "cemetery",
+      "administration",
+      "statistics",
+      "geojson",
+      "gis"
+   ]
+}
