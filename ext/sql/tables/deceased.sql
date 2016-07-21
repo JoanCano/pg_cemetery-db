@@ -1,4 +1,4 @@
-CREATE TABLE deceased
+CREATE TABLE ods.deceased
 (
 id serial NOT NULL, 
 name text,
