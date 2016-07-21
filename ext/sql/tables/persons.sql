@@ -1,4 +1,4 @@
-CREATE TABLE persons
+CREATE TABLE ods.persons
 (
   id serial NOT NULL, 
   name text, 
