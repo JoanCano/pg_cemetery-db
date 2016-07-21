@@ -1,4 +1,4 @@
-CREATE TABLE procedures
+CREATE TABLE ods.procedures
 (
   id serial NOT NULL, 
   name text, 
