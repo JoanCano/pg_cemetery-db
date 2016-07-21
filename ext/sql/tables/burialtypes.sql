@@ -1,4 +1,4 @@
-CREATE TABLE burialtypes
+CREATE TABLE ods.burialtypes
 (
   id serial NOT NULL, 
   description text, 
