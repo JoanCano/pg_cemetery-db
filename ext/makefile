@@ -10,7 +10,8 @@ DOCS = $(wildcard doc/*.md)
 
 all: $(EXTENSION)--$(EXTVERSION).sql
 
-$(EXTENSION)--$(EXTVERSION).sql: sql/schemas.sql
+$(EXTENSION)--$(EXTVERSION).sql: sql/schemas.sql \ 
+sql/tables/*.sql
 
 	cat $^ > $@
 
