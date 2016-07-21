@@ -1,4 +1,4 @@
-# Quick guide
+# Quick start guide
 
 ## Import geometries
 
