@@ -1,3 +1,4 @@
+# pg_cemetery-db extension
 comment = 'A PostgreSQL extension for creating a cemetery-db database'
 default_version = '0.0.1'
 relocatable = false
