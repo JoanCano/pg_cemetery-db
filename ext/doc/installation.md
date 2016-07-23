@@ -4,7 +4,7 @@ It’s easy to extend Postgres functionality through an extension. Let's make ou
 To define an extension, you need at least **two files**:
 
 * A **control file** called _extension_name.control_. (_Postgres tells some basics about your extension_)
-* An extension's SQL **script file** called _extension--version.sql_. (_ Add them into our project directory_)
+* An extension's SQL **script file** called _extension--version.sql_. (_Add them into our project directory_)
 #### Our files:
 
 * [Control file](https://github.com/JoanCano/pg_cemetery-db/blob/master/ext/pg_cemetery.control)
@@ -13,6 +13,7 @@ To define an extension, you need at least **two files**:
 For more information, you are encouraged to check the [Postgresql Official Documentation](https://www.postgresql.org/docs/9.5/static/extend-extensions.html)
 
 ## Install Extension
+We can start using the extension from our project directory and in our databse with _make install_.
 
 ## Create Extension
 
