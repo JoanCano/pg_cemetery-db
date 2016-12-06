@@ -7,17 +7,17 @@ El diseño de BD implica definir una estructura en la que se tiene que tener en 
 
 Siguiendo una serie de fases en el desarrollo de BD, tendríamos:
 
-1.     Diseño lógico: se entiende como un diseño conceptual independiente de un[SGBD](https://es.wikipedia.org/wiki/Sistema_de_Gesti%C3%B3n_de_Bases_de_Datos), que modeliza el contenido de nuestra BD.
+1.     Diseño lógico: se entiende como un diseño conceptual independiente de un [SGBD](https://es.wikipedia.org/wiki/Sistema_de_Gesti%C3%B3n_de_Bases_de_Datos), que modeliza el contenido de nuestra BD.
 
 Una de las metodologías para desarrollar un modelo conceptual es el modelo Entidad-Relación (E-R), donde una entidad es un objeto/concepto del mundo real y una relación es una dependencia existente entre entidades.
 
 Pero el modelo E-R a veces presenta limitaciones semánticas y no es suficiente para expresar con detalle la estructura de algunos tipos de información, de aquí que surgiese el modelo E-R extendido. Hay que tener este detalle en cuenta por si se va a utilizar BD espaciales como en este caso, debido a que aunque las BD relacionales sean las más extendidas, las orientadas a objetos resultan más ventajosas para el manejo de datos complejos, grupo en el que se incluyen las geometrías que utilizamos en un SIG para recoger la componente espacial de un datos espacial.
 
-Por tanto las[BD Objeto-Relacionales](http://informatica.uv.es/iiguia/DBD/Teoria/capitulo_4.pdf) (ORDB) capturan la riqueza semántica del modelo conceptual de la orientación a objetos y la sencillez de la implementación del modelo relacional.
+Por tanto las [BD Objeto-Relacionales](http://informatica.uv.es/iiguia/DBD/Teoria/capitulo_4.pdf) (ORDB) capturan la riqueza semántica del modelo conceptual de la orientación a objetos y la sencillez de la implementación del modelo relacional.
 
 Volviendo al diseño de nuestra BD, dadas nuestras anteriores entidades nuestro modelo de BD quedaría tal que así:
 
-[Modelo bd](https://github.com/JoanCano/pg_cemetery-db/ext/doc/images/modelo.png)
+[Modelo bd](https://github.com/JoanCano/pg_cemetery-db/blob/master/ext/doc/images/modelo.png)
 
 Se puede apreciar que se han relacionado las entidades. Ya que es necesario definir estas relaciones entre las distintas tablas. Una tabla es pues el eje central del modelo relacional.
 
@@ -31,7 +31,7 @@ Los SGBD son un elemento intermedio entre los datos y programas que los utilizan
 
 A la hora de implementar nuestro modelo en la BD nos percatamos de que ha de optimizarse para adaptarse al SGBD, para ello creamos el siguiente diagrama E-R.
 
-[Diagrama E-R](https://github.com/JoanCano/pg_cemetery-db/ext/doc/images/cemetery.png)
+[Diagrama E-R](https://github.com/JoanCano/pg_cemetery-db/blob/master/ext/doc/images/cementeri.png)
 
 Si nos fijamos, al revisarlo nos ha hecho falta normalizar nuestro modelo, para ver si se podía reducir u optimizar por problemas tales como la redundancia, que ocurre cuando se abarrotan demasiados datos en una sola relación. Como nuestras tablas tumba y tramite albergan gran cantidad de información y repetirse, pasaremos a crear unas tablas de carácter auxiliar para optimizar nuestra BD.
 
