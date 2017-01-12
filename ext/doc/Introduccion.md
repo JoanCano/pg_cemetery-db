@@ -1,6 +1,6 @@
 #Introducción
 
-El siguiente proyecto surge en el año 2015-2016 durante la realización de prácticas externas en el ayuntamiento de [Sella](https://www.openstreetmap.org/search?query=sella%20alicante#map=17/38.60839/-0.27132), con el objetivo de investigar el diseño de una geodatabase para la gestión de cementerios. Este proyecto se realiza tanto en el municipio de Sella como con la colaboración del Laboratorio de Geomática de la UA, concretamente con la ayuda de [Benito Zaragozí](http://benito-zaragozi.com/about/).
+El siguiente proyecto surge en el año 2015-2016 durante la realización de prácticas externas en el ayuntamiento de [Sella](https://www.openstreetmap.org/search?query=sella%20alicante#map=17/38.60839/-0.27132), con el objetivo de investigar el diseño de una geodatabase para la gestión de cementerios. Este proyecto se realiza tanto en el municipio de Sella como con la colaboración del Laboratorio de Geomática de la UA, concretamente con la ayuda de [Benito Zaragozí](http://benito-zaragozi.com/about/) y Pablo Giménez.
 
 #Planteamiento del proyecto
 
